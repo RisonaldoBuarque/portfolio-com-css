@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A79277;
+}
+
+header nav{
+    display: flex;
+    list-style: none;
+    margin: 0 0 50px;
+    font-family: Helvetica, Arial, sans-serif;;
+}
+
+header li{
+    margin: 0 15px;
+}
+
+a{
+    cursor: pointer;
+
+}
+
+a:hover{
+    color: black;
+}
+
+header a nav li a{
+    justify-content: center;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/*SECTION*/
+
+section h1{
+    font-family: Helvetica, Arial, sans-serif;;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D1BB9E;
+    margin-bottom: -5px;
+}
+
+
+.sobre img{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid  #A79277;
+    margin-top: 30px;
+
+}
+
+.sobre div{
+    width: 90%;
+    color: white;
+    margin-top: 20px;
+}
+
+.sobre div h1{
+    text-align: center;
+}
+
+@media (min-width:568px)  and (max-width:1400){
+        .sobre div {
+            max-width: 90%;
+        }
+}
+
+/*HABILIDADES*/
+
+.habilidades{
+    background-color: #D1BB9E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades h1{
+    text-align: center;    
+    color: white;
+}
+
+.habilidades div ul li{
+    color: white;
+    list-style: none;
+    padding: 0 50px;
+    margin-top: 10px;
+    border: 3px solid #A79277;
+    border-radius: 20%;
+    font-size: 13px;
+    margin-bottom: 10;
+}
+
+/*FOOTER*/
+
+.ultimo{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.ultimo p{
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;;
+}
+
+/*CONTATO*/
+
+.contato-footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    position: fixed;
+    background-color: #EAD8C0;
+}
+
+.contato-footer p{
+    margin-top: 10px;
+}
+
+.contato-footer a svg{
+    margin-top: 20px;
+}
+
+.contato {
+    font-family: "Montserrat", sans-serif;;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
